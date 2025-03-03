@@ -19,9 +19,11 @@ This is a trivia game that utilizes an api
 ```
 User story #1
   as a user,
+
   when I launch my game
-  I will see 
-    Number of Quesitons
+
+  I will see the "Game Setup Screen"
+    and Number of Quesitons
     and Question Type
     and Question Difficulty
     and Question Category
@@ -32,28 +34,27 @@ User story #1
 ```
 ```
 User sotry #2
+  as a user, 
+
+  when I click on the Submit button in Game Setup Screen
+
+  I will see the "Game Interface Screen"
+    and one question
+    and multiple choice or T/F answers
+    and a score tracker
+
+  then,
+    update the score
+    and display new quesiton as needed
 ```
 ```
 User sotry #3
-```
-```
-User sotry #4
-```
-```
-User sotry #5
-```
-```
-User sotry #6
-```
-```
-User sotry #7
-```
-```
-User sotry #8
-```
-```
-User sotry #9
-```
-```
-User sotry #10
+  as a user,
+
+  when I answered all the questions
+
+  I wil see the "Result Display"
+    and the score 
+    and win / loose message
+    and a restart game button
 ```
