@@ -1,13 +1,10 @@
 # Trivia game with API
 
 ## TABLE OF CONTENTS
-
-- [Trivia game with API](#trivia-game-with-api)
-  - [TABLE OF CONTENTS](#table-of-contents)
-  - [OBJECTIVES ](#objectives-)
-  - [Prerequisites ](#prerequisites-)
-  - [How to run the game ](#how-to-run-the-game-)
-  - [User Stories ](#user-stories-)
+  - [Objectives ](#objectives)
+  - [Prerequisites ](#prerequisites)
+  - [How to run the game ](#run)
+  - [User Stories ](#user-stories)
 ## OBJECTIVES <a name="objectives"></a>
 This is a trivia game that utilizes an api
 ## Prerequisites <a name="prerequesites"></a>
