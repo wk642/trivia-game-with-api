@@ -1,0 +1,19 @@
+.game-setup-container {
+  text-align: center;
+}
+
+.number-of-questions-div,
+.question-type-div,
+.difficulty-div {
+  margin-bottom: 15px;
+}
+
+button {
+  padding: 8px 15px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+input[type="range"] {
+  width: 100%;
+}
