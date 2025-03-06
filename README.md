@@ -21,7 +21,7 @@ This is a trivia game that utilizes an api
 3. Install the following  
     ```
     cd server
-    npm install express cors node-fetch
+    npm install express cors node-fetch nodemon
     ```
     ```
     cd ../client
