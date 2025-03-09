@@ -1,0 +1,498 @@
+[
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Animals",
+    "question": "How many legs do butterflies have?",
+    "correct_answer": "6",
+    "incorrect_answers": [
+      "2",
+      "4",
+      "0"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Entertainment: Film",
+    "question": "The 1996 film &#039;Fargo&#039; is primarily set in which US state?",
+    "correct_answer": "Minnesota",
+    "incorrect_answers": [
+      "North Dakota",
+      "South Dakota",
+      "Wisconsin"
+    ]
+  },
+  {
+    "type": "boolean",
+    "difficulty": "easy",
+    "category": "General Knowledge",
+    "question": "Dihydrogen Monoxide is a dangerous chemical.",
+    "correct_answer": "False",
+    "incorrect_answers": [
+      "True"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Science: Computers",
+    "question": "The name of technology company HP stands for what?",
+    "correct_answer": "Hewlett-Packard",
+    "incorrect_answers": [
+      "Howard Packmann",
+      "Husker-Pollosk",
+      "Hellman-Pohl"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Entertainment: Books",
+    "question": "Who wrote &quot;Harry Potter&quot;?",
+    "correct_answer": "J.K. Rowling",
+    "incorrect_answers": [
+      "J.R.R. Tolkien",
+      "Terry Pratchett",
+      "Daniel Radcliffe"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Geography",
+    "question": "The Japanese district Akihabara is also known by what nickname?",
+    "correct_answer": "Electric Town",
+    "incorrect_answers": [
+      "Moon Walk River",
+      "Otaku Central ",
+      "Big Eyes"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Geography",
+    "question": "What is the Polish city known to Germans as Danzig?",
+    "correct_answer": "Gdańsk",
+    "incorrect_answers": [
+      "Warsaw",
+      "Zakopane",
+      "Poznań"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Entertainment: Books",
+    "question": "Which is NOT a book in the Harry Potter Series?",
+    "correct_answer": "The House Elf",
+    "incorrect_answers": [
+      "The Chamber of Secrets",
+      "The Prisoner of Azkaban",
+      "The Deathly Hallows"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Entertainment: Video Games",
+    "question": "Which of these stages is not playable in &quot;Super Smash Bros. for Wii U&quot;?",
+    "correct_answer": "Fountain of Dreams",
+    "incorrect_answers": [
+      "Bridge of Eldin",
+      "75m",
+      "Miiverse"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Science &amp; Nature",
+    "question": "What is the scientific name of the knee cap?",
+    "correct_answer": "Patella",
+    "incorrect_answers": [
+      "Femur",
+      "Foramen Magnum",
+      "Scapula"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "History",
+    "question": "Which of these 1900s tanks were designed and built BEFORE the others?",
+    "correct_answer": "Renault FT",
+    "incorrect_answers": [
+      "M4 Sherman",
+      " Panzer IV",
+      "Cromwell "
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "History",
+    "question": "The Spitfire L.F. Mk IX had what engine?",
+    "correct_answer": "Merlin 66",
+    "incorrect_answers": [
+      "Griffon 65",
+      "Merlin 50",
+      "Merlin X"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Science: Computers",
+    "question": "Which of the following is a personal computer made by the Japanese company Fujitsu?",
+    "correct_answer": "FM-7",
+    "incorrect_answers": [
+      "PC-9801",
+      "Xmillennium ",
+      "MSX"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Entertainment: Music",
+    "question": "Johnny Cash did a cover of this song written by lead singer of Nine Inch Nails, Trent Reznor.",
+    "correct_answer": "Hurt",
+    "incorrect_answers": [
+      "Closer",
+      "A Warm Place",
+      "Big Man with a Gun"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Entertainment: Video Games",
+    "question": "In the game Danganronpa: Happy Trigger Havoc, the character Aoi Asahina&#039;s ultimate ability is what?",
+    "correct_answer": "Ultimate Swimmer",
+    "incorrect_answers": [
+      "Ultimate Detective",
+      "Ultimate Gambler",
+      "Ultimate Dancer"
+    ]
+  },
+  {
+    "type": "boolean",
+    "difficulty": "easy",
+    "category": "Science &amp; Nature",
+    "question": "A plant that has a life cycle for more than a year is known as an annual.",
+    "correct_answer": "False",
+    "incorrect_answers": [
+      "True"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Entertainment: Music",
+    "question": "Which of these artists did NOT remix the song &quot;Faded&quot; by Alan Walker?",
+    "correct_answer": "Skrillex",
+    "incorrect_answers": [
+      "Ti&euml;sto",
+      "Slushii",
+      "Dash Berlin"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Entertainment: Film",
+    "question": "Which actor auditioned for the role of Luke Skywalker?",
+    "correct_answer": "Kurt Russell",
+    "incorrect_answers": [
+      "Christopher Lambert",
+      "Laurence Fishburne",
+      "James Remar"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Entertainment: Cartoon &amp; Animations",
+    "question": "Which of these is NOT a Disney cartoon character?",
+    "correct_answer": "Daffy Duck",
+    "incorrect_answers": [
+      "Donald Duck",
+      "Daisy Duck",
+      "Scrooge McDuck"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "General Knowledge",
+    "question": "Area 51 is located in which US state?",
+    "correct_answer": "Nevada",
+    "incorrect_answers": [
+      "Arizona",
+      "New Mexico",
+      "Utah"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Sports",
+    "question": "Which country hosted the 2020 Summer Olympics?",
+    "correct_answer": "Japan",
+    "incorrect_answers": [
+      "China",
+      "Australia",
+      "Germany"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Entertainment: Video Games",
+    "question": "What is the name of the game developer who created &quot;Call Of Duty: Zombies&quot;?",
+    "correct_answer": "Treyarch",
+    "incorrect_answers": [
+      "Sledgehammer Games",
+      "Infinity Ward",
+      "Naughty Dog"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "General Knowledge",
+    "question": "Waluigi&#039;s first appearance was in what game?",
+    "correct_answer": "Mario Tennis 64 (N64)",
+    "incorrect_answers": [
+      "Wario Land: Super Mario Land 3",
+      "Mario Party (N64)",
+      "Super Smash Bros. Ultimate"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Entertainment: Music",
+    "question": "Which Elton John hit starts with the line &quot;When are you gonna come down&quot;?",
+    "correct_answer": "Goodbye Yellow Brick Road",
+    "incorrect_answers": [
+      "Rocket Man",
+      "Bennie and the Jets",
+      "Crocodile Rock"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Entertainment: Video Games",
+    "question": "In Fallout 4, which type of power armor is first encountered in the early mission &quot;When Freedom Calls&quot; in a crashed Vertibird?",
+    "correct_answer": "T-45",
+    "incorrect_answers": [
+      "T-51",
+      "T-60",
+      "X-01"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "History",
+    "question": "What was the code name for the German invasion of the Soviet Union in WW2?",
+    "correct_answer": "Operation Barbarossa",
+    "incorrect_answers": [
+      "Operation Kaiserschlact",
+      "Operation Unthinkable",
+      "Operation Molotov"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "History",
+    "question": "Which country was Josef Stalin born in?",
+    "correct_answer": "Georgia",
+    "incorrect_answers": [
+      "Russia",
+      "Germany",
+      "Poland"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Geography",
+    "question": "What is the name of the formerly rich fishing grounds off the island of Newfoundland, Canada?",
+    "correct_answer": "Grand Banks",
+    "incorrect_answers": [
+      "Great Barrier Reef",
+      "Mariana Trench",
+      "Hudson Bay"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Entertainment: Video Games",
+    "question": "In the game Pok&eacute;mon Conquest, how many kingdoms make up the region of Ransei?",
+    "correct_answer": "17",
+    "incorrect_answers": [
+      "18",
+      "15",
+      "16"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Science: Gadgets",
+    "question": "When was the iPhone released?",
+    "correct_answer": "2007",
+    "incorrect_answers": [
+      "2005",
+      "2006",
+      "2004"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Entertainment: Books",
+    "question": "In Terry Pratchett&#039;s Discworld novel &#039;Wyrd Sisters&#039;, which of these are not one of the three main witches?",
+    "correct_answer": "Winny Hathersham",
+    "incorrect_answers": [
+      "Granny Weatherwax",
+      "Nanny Ogg",
+      "Magrat Garlick"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Politics",
+    "question": "What are the first names of the first father and son pair that were both Prime Ministers of Canada?",
+    "correct_answer": "Justin and Pierre",
+    "incorrect_answers": [
+      "John and Louis",
+      "Brian and Justin",
+      "Brian and Pierre"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Entertainment: Television",
+    "question": "Dee from &quot;It&#039;s Always Sunny in Philadelphia&quot; has dated all of the following guys EXCEPT",
+    "correct_answer": "Matthew &quot;Rickety Cricket&quot; Mara",
+    "incorrect_answers": [
+      "Colin the Thief",
+      "Ben the Soldier",
+      "Kevin Gallagher aka Lil&#039; Kevin"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Science &amp; Nature",
+    "question": "What is &quot;Stenoma&quot;?",
+    "correct_answer": "A genus of moths",
+    "incorrect_answers": [
+      "A combat stimulant from WW2",
+      "A type of seasoning",
+      "A port city in the carribean"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "History",
+    "question": "The creator of the Enigma Cypher and Machine was of what nationality?",
+    "correct_answer": "German",
+    "incorrect_answers": [
+      "American",
+      "British",
+      "Polish"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Entertainment: Music",
+    "question": "Which Canadian reggae musician had a 1993 hit with the song &#039;Informer&#039;?",
+    "correct_answer": "Snow",
+    "incorrect_answers": [
+      "Rain",
+      "Hail",
+      "Sleet"
+    ]
+  },
+  {
+    "type": "boolean",
+    "difficulty": "medium",
+    "category": "Sports",
+    "question": "Tennis was once known as Racquetball.",
+    "correct_answer": "False",
+    "incorrect_answers": [
+      "True"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Entertainment: Film",
+    "question": "Who played Baron Victor Frankestein in the 1957 Hammer horror film &quot;The Curse of Frankenstein&quot;?",
+    "correct_answer": "Peter Cushing",
+    "incorrect_answers": [
+      "Boris Karloff",
+      "Vincent Price",
+      "Lon Chaney Jr."
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Entertainment: Japanese Anime &amp; Manga",
+    "question": "Which of the following manga have the most tankouban volumes?",
+    "correct_answer": "Golgo 13",
+    "incorrect_answers": [
+      "JoJo&#039;s Bizarre Adventure",
+      "Detective Conan",
+      "One Piece"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "History",
+    "question": "During the Spanish Civil War (1936), Francisco Franco fought for which political faction?",
+    "correct_answer": "Nationalist Spain",
+    "incorrect_answers": [
+      "Republican Spain",
+      "Popular Front",
+      "Papal State"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Entertainment: Video Games",
+    "question": "What video game sparked controversy because of its hidden &quot;Hot Coffee&quot; minigame?",
+    "correct_answer": "Grand Theft Auto: San Andreas",
+    "incorrect_answers": [
+      "Grand Theft Auto: Vice City",
+      "Hitman: Blood Money",
+      "Cooking Mama"
+    ]
+  },
+  {
+    "type": "boolean",
+    "difficulty": "easy",
+    "category": "Animals",
+    "question": "The Axolotl is an amphibian that can spend its whole life in a larval state.",
+    "correct_answer": "True",
+    "incorrect_answers": [
+      "False"
+    ]
+  }
+]
