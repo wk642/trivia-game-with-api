@@ -494,5 +494,589 @@
     "incorrect_answers": [
       "False"
     ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "General Knowledge",
+    "question": "When was the Playstation 3 released?",
+    "correct_answer": "November 11, 2006",
+    "incorrect_answers": [
+      "January 8, 2007",
+      "December 25, 2007",
+      "July 16, 2006"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "History",
+    "question": "Which of the following was not one of Joseph Stalin&#039;s ten blows during World War II?",
+    "correct_answer": "Vistula-Oder Offensive",
+    "incorrect_answers": [
+      "Crimean Offensive",
+      "Leningrad-Novgorod Offensive",
+      "Operation Bagration"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Entertainment: Film",
+    "question": "What breed of dog was Marley in the film &quot;Marley &amp; Me&quot; (2008)?",
+    "correct_answer": "Labrador Retriever",
+    "incorrect_answers": [
+      "Golden Retriever",
+      "Dalmatian",
+      "Shiba Inu"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Entertainment: Cartoon &amp; Animations",
+    "question": "What is Scooby-Doo&#039;s real name?",
+    "correct_answer": "Scoobert",
+    "incorrect_answers": [
+      "Scooter",
+      "Scrappy",
+      "Shooby"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Geography",
+    "question": "How tall is One World Trade Center in New York City?",
+    "correct_answer": "1,776 ft",
+    "incorrect_answers": [
+      "1,888 ft",
+      "1,225 ft",
+      "1,960 ft"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Entertainment: Music",
+    "question": "Who is the lead singer of Green Day?",
+    "correct_answer": "Billie Joe Armstrong",
+    "incorrect_answers": [
+      "Mike Dirnt",
+      "Sean Hughes",
+      "Tr&eacute; Cool"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Entertainment: Cartoon &amp; Animations",
+    "question": "Townsend Coleman provided the voice for which turtle in the original 1987 series of &quot;Teenage Mutant Ninja Turtles&quot;?",
+    "correct_answer": "Michelangelo",
+    "incorrect_answers": [
+      "Leonardo",
+      "Donatello",
+      "Raphael"
+    ]
+  },
+  {
+    "type": "boolean",
+    "difficulty": "medium",
+    "category": "Entertainment: Film",
+    "question": "The original ending of &quot;Little Shop Of Horrors&quot; has the plants taking over the world.",
+    "correct_answer": "True",
+    "incorrect_answers": [
+      "False"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Entertainment: Film",
+    "question": "In the film &quot;Harry Potter and the Order of The Phoenix&quot;, why was Harry Potter&#039;s scream, after Sirius Black died, muted?",
+    "correct_answer": "Too Agonizing",
+    "incorrect_answers": [
+      "Too Loud",
+      "Too Harsh",
+      "Too Violent"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Entertainment: Television",
+    "question": "When Donkey Kong died in the &quot;Donkey Kong Country&quot; episode &quot;It&#039;s a Wonderful Life&quot;, who was his guardian angel?",
+    "correct_answer": "Eddie the Mean Old Yeti",
+    "incorrect_answers": [
+      "Kiddy Kong",
+      "Diddy Kong",
+      "King K. Rool"
+    ]
+  },
+  {
+    "type": "boolean",
+    "difficulty": "medium",
+    "category": "Geography",
+    "question": "Seoul is the capital of North Korea.",
+    "correct_answer": "False",
+    "incorrect_answers": [
+      "True"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Entertainment: Film",
+    "question": "Who played Batman in the 1997 film &quot;Batman and Robin&quot;?",
+    "correct_answer": "George Clooney",
+    "incorrect_answers": [
+      "Michael Keaton",
+      "Val Kilmer",
+      "Christian Bale"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Science: Gadgets",
+    "question": "Which gaming console is developed by Sony?",
+    "correct_answer": "PlayStation",
+    "incorrect_answers": [
+      "Xbox",
+      "Atari",
+      "Nintendo Switch"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Entertainment: Film",
+    "question": "Who played Deputy Marshal Samuel Gerard in the 1993 film &quot;The Fugitive&quot;?",
+    "correct_answer": "Tommy Lee Jones",
+    "incorrect_answers": [
+      "Harrison Ford",
+      "Harvey Keitel",
+      "Martin Landau"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "History",
+    "question": "What was the name of the planned invasion of Japan towards the end of World War II?",
+    "correct_answer": "Operation Downfall",
+    "incorrect_answers": [
+      "Operation Boarding Party",
+      "Operation Ironclad",
+      "Operation Aflame"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Entertainment: Music",
+    "question": "Which of these are NOT a Men at Work song?",
+    "correct_answer": "Basket Case",
+    "incorrect_answers": [
+      "Dr. Heckyll and Mr. Jive",
+      "Who Can It Be Now?",
+      "Be Good Johnny"
+    ]
+  },
+  {
+    "type": "boolean",
+    "difficulty": "medium",
+    "category": "Sports",
+    "question": "Wilt Chamberlain scored his infamous 100-point-game against the New York Knicks in 1962.",
+    "correct_answer": "True",
+    "incorrect_answers": [
+      "False"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Science &amp; Nature",
+    "question": "What are human nails made of?",
+    "correct_answer": "Keratin",
+    "incorrect_answers": [
+      "Bone",
+      "Chitin",
+      "Calcium"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Science: Computers",
+    "question": "What was the name given to Android 4.3?",
+    "correct_answer": "Jelly Bean",
+    "incorrect_answers": [
+      "Lollipop",
+      "Nutella",
+      "Froyo"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "General Knowledge",
+    "question": "What organ of the body produces bile?",
+    "correct_answer": "Liver",
+    "incorrect_answers": [
+      "Gallbladder",
+      "Pancreas",
+      "Stomach"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Entertainment: Video Games",
+    "question": "In the MMO RPG &quot;Realm of the Mad God&quot;, what class is known for having the highest possible defense?",
+    "correct_answer": "The Knight",
+    "incorrect_answers": [
+      "The Wizard",
+      "The Archer",
+      "The Warrior"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Entertainment: Japanese Anime &amp; Manga",
+    "question": "In &quot;Fairy Tail&quot;, what is the nickname of Natsu Dragneel?",
+    "correct_answer": "The Salamander",
+    "incorrect_answers": [
+      "The Dragon Slayer",
+      "The Dragon",
+      "The Demon"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Entertainment: Television",
+    "question": "In Game of Thrones, what continent lies across the Narrow Sea from Westeros?",
+    "correct_answer": "Essos",
+    "incorrect_answers": [
+      "Easteros",
+      "Westereast",
+      "Esuntos"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Entertainment: Music",
+    "question": "Which song by Swedish electronic musician Avicii samples the song &quot;Something&#039;s Got A Hold On Me&quot; by Etta James?",
+    "correct_answer": "Levels",
+    "incorrect_answers": [
+      "Fade Into Darkness",
+      "Silhouettes",
+      "Seek Bromance"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Science: Gadgets",
+    "question": "Which buzzword did Apple Inc. use to describe their removal of the headphone jack?",
+    "correct_answer": "Courage",
+    "incorrect_answers": [
+      "Innovation",
+      "Revolution",
+      "Bravery"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Entertainment: Video Games",
+    "question": "In Night In The Woods, where does Gregg work?",
+    "correct_answer": "Snack Falcon",
+    "incorrect_answers": [
+      "Ol&#039; Pickaxe",
+      "Video Outpost &quot;Too&quot;",
+      "Food Donkey"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Entertainment: Comics",
+    "question": "In the webcomic &quot;Ava&#039;s Demon&quot;, what sin is &quot;Nevy Nervine&quot; based off of? ",
+    "correct_answer": "Envy ",
+    "incorrect_answers": [
+      "Sloth",
+      "Wrath ",
+      "Lust"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Entertainment: Music",
+    "question": "Who is the lead singer of Arctic Monkeys?",
+    "correct_answer": "Alex Turner",
+    "incorrect_answers": [
+      "Jamie Cook",
+      "Matt Helders",
+      "Nick O&#039;Malley"
+    ]
+  },
+  {
+    "type": "boolean",
+    "difficulty": "medium",
+    "category": "Entertainment: Cartoon &amp; Animations",
+    "question": "Snagglepuss was part of the Yogi Yahooies in the 1977 show Scooby&#039;s All-Star Laff-a-Lympics.",
+    "correct_answer": "False",
+    "incorrect_answers": [
+      "True"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Entertainment: Music",
+    "question": "Which Beatle led the way across the zebra crossing on the Abbey Road album cover?",
+    "correct_answer": "John",
+    "incorrect_answers": [
+      "Paul",
+      "George",
+      "Ringo"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Entertainment: Film",
+    "question": "Which of the following is not the name of a &quot;Bond Girl&quot;? ",
+    "correct_answer": "Vanessa Kensington",
+    "incorrect_answers": [
+      "Pam Bouvier",
+      "Mary Goodnight",
+      "Wai Lin"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Art",
+    "question": "Who painted the Mona Lisa?",
+    "correct_answer": "Leonardo da Vinci",
+    "incorrect_answers": [
+      "Pablo Picasso",
+      "Claude Monet",
+      "Vincent van Gogh"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Entertainment: Television",
+    "question": "In &quot;Spongebob Squarepants,&quot; what is Mr. Krabs&#039; full name?",
+    "correct_answer": "Eugene H. Krabs",
+    "incorrect_answers": [
+      "Eugene G. Krabs",
+      "Eugene J. Krabs",
+      "Eugene D. Krabs"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "General Knowledge",
+    "question": "In ancient Greece, if your job were a &quot;hippeus&quot; which of these would you own?",
+    "correct_answer": "Horse",
+    "incorrect_answers": [
+      "Weave",
+      "Guitar",
+      "Boat"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "History",
+    "question": "Which one of these was not a beach landing site in the Invasion of Normandy?",
+    "correct_answer": "Silver",
+    "incorrect_answers": [
+      "Gold",
+      "Juno",
+      "Sword"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Entertainment: Film",
+    "question": "Which musical artist had a prominent role in the 2017 film &quot;Kingsman: The Golden Circle&quot;?",
+    "correct_answer": "Elton John",
+    "incorrect_answers": [
+      "Lady Gaga",
+      "Rihanna",
+      "Justin Bieber"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Entertainment: Film",
+    "question": "What city did the monster attack in the film, &quot;Cloverfield&quot;?",
+    "correct_answer": "New York, New York",
+    "incorrect_answers": [
+      "Las Vegas, Nevada",
+      "Chicago, Illinois",
+      "Orlando, Florida"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Entertainment: Video Games",
+    "question": "In the Super Smash Bros. series, which game first featured Luigi as a playable character?",
+    "correct_answer": "Super Smash Bros.",
+    "incorrect_answers": [
+      "Super Smash Bros. Melee",
+      "Super Smash Bros. Brawl",
+      "Super Smash Bros. for Wii U"
+    ]
+  },
+  {
+    "type": "boolean",
+    "difficulty": "easy",
+    "category": "Entertainment: Music",
+    "question": "The 2011 movie &quot;The Adventures of Tintin&quot; was directed by Steven Spielberg.",
+    "correct_answer": "True",
+    "incorrect_answers": [
+      "False"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Entertainment: Video Games",
+    "question": "Which game won the &quot;Games for Impact&quot; award in The Game Awards 2015?",
+    "correct_answer": "Life is Strange",
+    "incorrect_answers": [
+      "Ori and the Blind Forest",
+      "Rocket League",
+      "Metal Gear Solid V: The Phantom Pain"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Entertainment: Music",
+    "question": "In which city did American rap producer DJ Khaled originate from?",
+    "correct_answer": "Miami",
+    "incorrect_answers": [
+      "New York",
+      "Detroit",
+      "Atlanta"
+    ]
+  },
+  {
+    "type": "boolean",
+    "difficulty": "medium",
+    "category": "Entertainment: Video Games",
+    "question": "In career mode of &quot;Need for Speed: Underground 2&quot;, the first car the player can drive is the BMW M3 GTR.",
+    "correct_answer": "False",
+    "incorrect_answers": [
+      "True"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Mythology",
+    "question": "According to the Egyptian Myth of Osiris, who murdered Osiris?",
+    "correct_answer": "Set",
+    "incorrect_answers": [
+      "Horus",
+      "Ra",
+      "Anhur"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Entertainment: Television",
+    "question": "In the Black Mirror episode &quot;Bandersnatch&quot;, PAC-MAN stands for:",
+    "correct_answer": "Program And Control Man",
+    "incorrect_answers": [
+      "Postgraduate Aplications Centre Man",
+      "Political Action Committee Man",
+      "Physics &amp; Astronomy Classification Man"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "History",
+    "question": "Which of the following countries was the first to send an object into space?",
+    "correct_answer": "Germany",
+    "incorrect_answers": [
+      "USA",
+      "Russia",
+      "China"
+    ]
+  },
+  {
+    "type": "boolean",
+    "difficulty": "easy",
+    "category": "Entertainment: Video Games",
+    "question": "&quot;Resident Evil 7&quot; is the first first-person Resident Evil game.",
+    "correct_answer": "False",
+    "incorrect_answers": [
+      "True"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Entertainment: Music",
+    "question": "Which of the following music bands is not from Finland?",
+    "correct_answer": "Sabaton",
+    "incorrect_answers": [
+      "Apocalyptica",
+      "Waltari",
+      "Lordi"
+    ]
+  },
+  {
+    "type": "boolean",
+    "difficulty": "easy",
+    "category": "Entertainment: Board Games",
+    "question": "In the Dungeons and Dragons universe, Beshaba is the deity of bad luck. ",
+    "correct_answer": "True",
+    "incorrect_answers": [
+      "False"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Entertainment: Video Games",
+    "question": "In &quot;Fallout 4&quot;, what is the name of the dog you find at Red Rocket truck stop?",
+    "correct_answer": "Dogmeat",
+    "incorrect_answers": [
+      "Sparky",
+      "Quazar",
+      "Chop"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Entertainment: Video Games",
+    "question": "Excluding their instructor, how many members of Class VII are there in the game &quot;Legend of Heroes: Trails of Cold Steel&quot;?",
+    "correct_answer": "9",
+    "incorrect_answers": [
+      "6",
+      "10",
+      "3"
+    ]
   }
 ]
