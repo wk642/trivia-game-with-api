@@ -1,4 +1,3 @@
-// App.jsx
 import React, { useState } from 'react';
 import GameSetup from './components/GameSetup';
 import GamePlay from './components/GamePlay';
