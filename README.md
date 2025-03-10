@@ -3,6 +3,7 @@
 ## TABLE OF CONTENTS
   - [Objectives](#objectives)
   - [Prerequisites](#prerequisites)
+  - [Demo](#Demo)
   - [How to run the game](#run)
   - [User Stories](#user-stories)
   - [Wireframes](#wireframe)
@@ -13,6 +14,8 @@ This is a trivia game that utilizes an api
 - [ ] vite
 - [ ] express
 - [ ] api
+## Demo
+
 ## How to run the game <a name="run"></a>
 1. Clone this project  
 ` git clone https://github.com/wk642/trivia-game-with-api.git`  

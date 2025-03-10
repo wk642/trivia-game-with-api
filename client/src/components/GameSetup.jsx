@@ -6,6 +6,7 @@ function GameSetup({ startGame }) {
   const questionType = useRef('multiple');
   const questionDifficulty = useRef('medium');
   const questionCategory = useRef('');
+  const [selectedButton, setSelectedButton] = useState('notSelected');
 
   const changeNumberOfQuestions = (event) => {
     setNumberOfQuestions(parseInt(event.target.value));
@@ -13,10 +14,12 @@ function GameSetup({ startGame }) {
 
   const changeQuestionType = (type) => {
     questionType.current = type;
+    setSelectedButton = "selected";
   };
 
   const changeDifficulty = (difficulty) => {
     questionDifficulty.current = difficulty;
+    setSelectedButton = "selected";
   };
 
   const handleStartGame = () => {
@@ -40,11 +43,11 @@ function GameSetup({ startGame }) {
       {/* number of questions slider */}
       <div className="number-of-questions-div">
         <label>Number of Questions: {numberOfQuestions}</label>
-        <br />
+        {/* <br /> */}
         <input
           type="range"
           id="numQuestions"
-          min="1"
+          min="3"
           max="15"
           value={numberOfQuestions}
           onChange={changeNumberOfQuestions}
