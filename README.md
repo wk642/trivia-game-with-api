@@ -7,7 +7,7 @@
   - [How to run the game](#run)
   - [User Stories](#user-stories)
   - [Wireframes](#wireframe)
-  - [Things I tested](#test)
+  - [Things to test for](#test)
 ## OBJECTIVES <a name="objectives"></a>
 This is a trivia game that utilizes an api
 ## Prerequisites <a name="prerequesites"></a>

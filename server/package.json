@@ -4,7 +4,7 @@
   "main": "server.js",
   "type": "module",
   "scripts": {
-    "test": "vitest",
+    "test": "jest",
     "start": "nodemon server.js",
     "proxy": "http://localhost:5000"
   },
