@@ -1,0 +1,72 @@
+/* GamePlay.css */
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+.game-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.in-game-score-div,
+.answer-feedback {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 5px;
+    border-radius: 5px;
+    width: fit-content;
+    margin: 5px auto;
+}
+
+.game-content {
+    display: grid;
+    grid-template-rows: 1fr 1fr; 
+    height: 100%;
+}
+
+.question-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    font-size: 1.2em;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+.answers-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+.question-div {
+    height: 250px;
+    font-size: 40px;
+    /* background-color: pink; */
+    width: 750px;
+}
+
+.answers-div {
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    /* background-color: green; */
+    margin-top: 55px;
+    margin-left:20px;
+    width: 750px;
+}
+
+.answers-div button {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 1em;
+    width: 600px;
+    margin-left: 50px;
+
+}

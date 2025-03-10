@@ -1,17 +1,22 @@
-import React from "react";
+import React from 'react';
+import './GameResult.css';
 
-function GameResult() {
-  return (
-    <div>
-      <div className="score-div">
-        score
-      </div>
+function GameResult({ score, totalQuestions, onRestart }) {
+    const winThreshold = totalQuestions / 2;
+    const gameWon = score > winThreshold;
 
-      <div className="message-div">
-        win / loss message
-      </div>
-    </div>
-  )
+    return (
+        <div className="game-result-container">
+            <h2>Game Over!</h2>
+            {gameWon ? (
+                <p>Congratulations! You Win!</p>
+            ) : (
+                <p>Better luck next time! You Lose.</p>
+            )}
+            <p>Your score: {score} / {totalQuestions}</p>
+            <button onClick={onRestart}>Restart Game</button>
+        </div>
+    );
 }
 
 export default GameResult;

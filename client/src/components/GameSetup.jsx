@@ -1,112 +1,126 @@
-import React, { useRef, useState, useEffect } from 'react';
-import './GameSetup.css'
+import React, { useRef, useState } from 'react';
+import './GameSetup.css';
 
-function GameSetup({ onStartGame }) {
-  const [numberOfQuestions, setNumberOfQuestions] = useState(10);
-  const questionType = useRef('multiple-choice');
-  const questionDifficulty = useRef('medium');
-  const questionCategory = useRef('any-category');
+function GameSetup({ startGame }) {
+    const [numberOfQuestions, setNumberOfQuestions] = useState('10');
+    const questionType = useRef('multiple');
+    const questionDifficulty = useRef('medium');
+    const questionCategory = useRef('');
 
-  const handleStartGame = () => {
-    const gameSettings = {
-      numberOfQuestions: numberOfQuestions,
-      questionType: questionType.current,
-      questionDifficulty: questionDifficulty.current,
+    const changeNumberOfQuestions = (event) => {
+        setNumberOfQuestions(parseInt(event.target.value));
     };
 
-    console.log('Game Settings:', gameSettings);
-    if (onStartGame) {
-      onStartGame(gameSettings);
-    }
-  };
+    const changeQuestionType = (type) => {
+        questionType.current = type;
+    };
 
-  const chanageNumberOfQuestions = (event) => {
-    setNumberOfQuestions(parseInt(event.target.value, 10));
-  };
+    const changeDifficulty = (difficulty) => {
+        questionDifficulty.current = difficulty;
+    };
 
-  const changeQuestionType = (type) => {
-    questionType.current = type;
-  };
+    const handleStartGame = () => {
+        const gameSettings = {
+            amount: numberOfQuestions,
+            type: questionType.current,
+            difficulty: questionDifficulty.current,
+            category: questionCategory.current.value,
+        };
 
-  const changeDifficulty = (difficulty) => {
-    questionDifficulty.current = difficulty;
-  };
+        console.log("Game Settings:", gameSettings);
 
-  return (
-    <div className="game-setup-container">
-      <h2>Game Setup</h2>
-      <div className="number-of-questions-div">
-        <label>Number of Questions: {numberOfQuestions}</label>
-        <br/>
-        <input
-          type="range"
-          id="numQuestions"
-          min="1"
-          max="50"
-          value={numberOfQuestions}
-          onChange={chanageNumberOfQuestions}
-        />
+        if (startGame) {
+            startGame(gameSettings);
+        }
+    };
+
+    return (
+      <div className="game-setup-container">
+        <h2>Game Setup</h2>
+        {/* number of questions slider */}
+        <div className="number-of-questions-div">
+          <label>Number of Questions: {numberOfQuestions}</label>
+          <br />
+          <input
+            type="range"
+            id="numQuestions"
+            min="1"
+            max="15"
+            value={numberOfQuestions}
+            onChange={changeNumberOfQuestions}
+          />
+        </div>
+
+        {/* question type, multiple choice / true false */}
+        <div className="question-type-div">
+          <button 
+            onClick={() => changeQuestionType('multiple')}
+            className={questionType === 'boolean' ? 'selected' : ''}
+          >
+            Multiple Choice
+          </button>
+          <button 
+            onClick={() => changeQuestionType('boolean')}
+            className={questionType === 'boolean' ? 'selected' : ''}
+          >
+            True/False
+          </button>
+        </div>
+
+        {/* difficulty levels: easy, medium, hard */}
+        <div className="difficulty-div">
+            <button 
+              onClick={() => changeDifficulty('easy')}
+              className={questionDifficulty === 'easy' ? 'selected' : ''}
+            >
+              Easy
+            </button>
+            <button 
+              onClick={() => changeDifficulty('medium')}
+              className={questionDifficulty === 'medium' ? 'selected' : ''}
+            >
+              Medium
+            </button>
+            <button 
+              onClick={() => changeDifficulty('hard')}
+              className={questionDifficulty === 'easy' ? 'selected' : ''}
+            >
+              Hard
+            </button>
+        </div>
+
+        <div className="category-div">
+            <select ref={questionCategory}>
+                <option value=''>Any Category</option>
+                <option value='9'>General Knowledge</option>
+                <option value='10'>Entertainment: Books</option>
+                <option value='11'>Entertainment: Film</option>
+                <option value='12'>Entertainment: Music</option>
+                <option value='13'>Entertainment: Musical & Theaters</option>
+                <option value='14'>Entertainment: Television</option>
+                <option value='15'>Entertainment: Video Games</option>
+                <option value='16'>Entertainment: Board Games</option>
+                <option value='17'>Science & Nature</option>
+                <option value='18'>Science: Computers</option>
+                <option value='19'>Science: Mathematics</option>
+                <option value='20'>Mythology</option>
+                <option value='21'>Sports</option>
+                <option value='22'>Geography</option>
+                <option value='23'>History</option>
+                <option value='24'>Politics</option>
+                <option value='25'>Art</option>
+                <option value='26'>Celebreties</option>
+                <option value='27'>Animals</option>
+                <option value='28'>Vehicles</option>
+                <option value='29'>Entertainment: Cosmics</option>
+                <option value='30'>Science: Gadgets</option>
+                <option value='31'>Entertainment: Japanese Anime & Manga</option>
+                <option value='32'>Entertainment: Cartoon & Animations</option>
+            </select>
+        </div>
+
+        <button onClick={handleStartGame}>Start Game</button>
       </div>
-
-      <div className="question-type-div">
-        <label>Question Type:</label>
-        <br/>
-        <button onClick={() => changeQuestionType('multiple-choice')}>
-          Multiple Choice
-        </button>
-        <button onClick={() => changeQuestionType('true-or-false')}>
-          True/False
-        </button>
-      </div>
-
-      <div className="difficulty-div">
-        <label>Question Difficulty:</label>
-        <br/>
-        <button onClick={() => changeDifficulty('easy')}>
-          Easy
-        </button>
-        <button onClick={() => changeDifficulty('medium')}>
-          Medium
-        </button>
-        <button onClick={() => changeDifficulty('hard')}>
-          Hard
-        </button>
-      </div>
-
-      <div className="category-div">
-        <label>Question Category:</label>
-        <br/>
-        <select>
-          <option>Any Category</option>
-          <option>General Knowledge</option>
-          <option>Entertainment: Books</option>    
-          <option>Entertainment: Film</option>
-          <option>Entertainment: Music</option>
-          <option>Entertainment: Musical & Theaters</option>
-          <option>Entertainment: Television</option>
-          <option>Entertainment: Video Games</option>
-          <option>Entertainment: Board Games</option>
-          <option>Science & Nature</option>
-          <option>Science: Computers</option>
-          <option>Science: Matheetics</option>
-          <option>Mythology</option>
-          <option>Sports</option>
-          <option>Geography</option>
-          <option>History</option>
-          <option>Politics</option>
-          <option>Art</option>
-          <option>Celebreties</option>
-          <option>Animals</option>
-          <option>Vehicles</option>
-          <option>Entertainment: Cosmics</option>
-          <option>Science: Gadgets</option>
-          <option>Entertainment: Japanese Anime & Manga</option>
-          <option>Entertainment: Cartoon & Animations</option>
-        </select>        
-      </div>
-
-      <button onClick={handleStartGame}>Start Game</button>
-    </div>
   );
 }
 

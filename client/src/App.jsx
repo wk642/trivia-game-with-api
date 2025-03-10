@@ -1,17 +1,31 @@
-import React, { useState } from 'react'
+// App.jsx
+import React, { useState } from 'react';
+import GameSetup from './components/GameSetup';
+import GamePlay from './components/GamePlay';
 import './App.css'
-import GameSetup from './components/GameSetup'
-import GamePlay from './components/GamePlay'
-import GameResult from './components/GameResult'
-
 function App() {
-  return (
-      <div>
-        <GameSetup />
-        <GamePlay />
-        <GameResult />
-      </div>
-  )
+    const [gameStarted, setGameStarted] = useState(false);
+    const [settings, setSettings] = useState(null);
+
+    const startGame = (gameSettings) => {
+        setSettings(gameSettings);
+        setGameStarted(true);
+    };
+
+    const restartGame = () => {
+        setGameStarted(false);
+        setSettings(null);
+    };
+
+    return (
+        <div>
+            {gameStarted ? (
+                <GamePlay settings={settings} onRestart={restartGame} />
+            ) : (
+                <GameSetup startGame={startGame} />
+            )}
+        </div>
+    );
 }
 
 export default App;
