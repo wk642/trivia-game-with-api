@@ -8,7 +8,8 @@ function GameSetup({ startGame }) {
   const questionType = useRef('multiple');
   const questionDifficulty = useRef('medium');
   const questionCategory = useRef('');
-  const [selectedButton, setSelectedButton] = useState('notSelected');
+  // commenting this part out for now, not working, goal is to make it so that what user selected will have a border around it
+  // const [selectedButton, setSelectedButton] = useState('notSelected');
 
   const changeNumberOfQuestions = (event) => {
     setNumberOfQuestions(parseInt(event.target.value));
@@ -16,12 +17,12 @@ function GameSetup({ startGame }) {
 
   const changeQuestionType = (type) => {
     questionType.current = type;
-    setSelectedButton = "selected";
+    // setSelectedButton = "selected";
   };
 
   const changeDifficulty = (difficulty) => {
     questionDifficulty.current = difficulty;
-    setSelectedButton = "selected";
+    // setSelectedButton = "selected";
   };
 
   const handleStartGame = () => {
@@ -60,13 +61,13 @@ function GameSetup({ startGame }) {
       <div className="question-type-div">
         <button 
           onClick={() => changeQuestionType('multiple')}
-          className={questionType === 'boolean' ? 'selected' : ''}
+          // className={questionType === 'boolean' ? 'selected' : ''}
         >
           Multiple Choice
         </button>
         <button 
           onClick={() => changeQuestionType('boolean')}
-          className={questionType === 'boolean' ? 'selected' : ''}
+          // className={questionType === 'boolean' ? 'selected' : ''}
         >
           True/False
         </button>
@@ -76,19 +77,19 @@ function GameSetup({ startGame }) {
       <div className="difficulty-div">
         <button 
           onClick={() => changeDifficulty('easy')}
-          className={questionDifficulty === 'easy' ? 'selected' : ''}
+          // className={questionDifficulty === 'easy' ? 'selected' : ''}
         >
           Easy
         </button>
         <button 
           onClick={() => changeDifficulty('medium')}
-          className={questionDifficulty === 'medium' ? 'selected' : ''}
+          // className={questionDifficulty === 'medium' ? 'selected' : ''}
         >
           Medium
         </button>
         <button 
           onClick={() => changeDifficulty('hard')}
-          className={questionDifficulty === 'easy' ? 'selected' : ''}
+          // className={questionDifficulty === 'easy' ? 'selected' : ''}
         >
           Hard
         </button>
