@@ -15,7 +15,7 @@ This is a trivia game that utilizes an api
 - [ ] express
 - [ ] api
 ## Demo
-
+![Alt Text](./client/src/assets/trivia-game-with-api-demo.gif)
 ## How to run the game <a name="run"></a>
 1. Clone this project  
 ` git clone https://github.com/wk642/trivia-game-with-api.git`  
@@ -46,7 +46,6 @@ you will need to restart this token w
     cd client
     npm install dotenv
     ```
-5. 
 ## User Stories <a name="user-stories"></a>
 ```
 MVP User story #1
@@ -111,3 +110,7 @@ For mobile:
 
   Edge Cases
   - [ ] What if user did not select all the settings
+## Nice to Haves <a name="nice"></a>
+- [ ] timer
+- [ ] finish testing
+- [ ] home button so user can end game early
