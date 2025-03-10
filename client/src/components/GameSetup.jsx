@@ -1,4 +1,6 @@
-import React, { useRef, useState } from 'react';
+import React from 'react';
+import { useRef } from 'react';
+import { useState } from 'react';
 import './GameSetup.css';
 
 function GameSetup({ startGame }) {
