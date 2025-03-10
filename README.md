@@ -31,6 +31,19 @@ This is a trivia game that utilizes an api
     ` npm run dev`   
 To run tests:   
 ` npm install --save-dev jest`
+## How to retrieve a session toekn so we lower the chance of running into error 429
+1. To retrieve a token  
+`https://opentdb.com/api_token.php?command=request`
+2. save that to your .env
+3. addd your .env to .gitignore
+you will need to restart this token w
+`https://opentdb.com/api_token.php?command=reset&token=YOURTOKENHERE`
+4. install dotenv so you can access use it
+    ```
+    cd client
+    npm install dotenv
+    ```
+5. 
 ## User Stories <a name="user-stories"></a>
 ```
 MVP User story #1
