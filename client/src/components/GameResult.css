@@ -1,5 +1,12 @@
-.game-result-container{
-  background-color: black;
+.win-lose-message{
+  /* background-color: black; */
   width: 100%;
-  margin: 0, auto;
+  color: black;
+  margin-top: -100px;
+}
+
+.restart-game-div{
+  /* background-color: yellow; */
+  margin-top: 200px;
+  font-size: 40px;
 }
