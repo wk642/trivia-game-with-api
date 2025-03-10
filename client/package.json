@@ -14,6 +14,7 @@
     "@tailwindcss/vite": "^4.0.12",
     "cors": "^2.8.5",
     "dotenv": "^16.4.7",
+    "jest-environment-jsdom": "^29.7.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "tailwindcss": "^4.0.12"
@@ -35,7 +36,8 @@
   "jest": {
     "transform": {
       "^.+\\.(js|jsx)$": "babel-jest",
-      "\\.css$": "jest-transform-css"}
+      "\\.css$": "jest-transform-css"
+    },
+    "testEnvironment": "jsdom"
   }
-  
 }
