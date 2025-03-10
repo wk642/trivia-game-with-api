@@ -37,14 +37,17 @@ async function retry429(url, maxNumberOfRetries = 3, delay = 1000) {
 }
 
 app.get('/trivia', async (req, res) => {
+    const { amount, category, difficulty, type } = req.query;
+
+    // logging the user's parameters being passed in
     console.log("Amount:", req.query.amount);
     console.log("Category:", req.query.category);
     console.log("Difficulty:", req.query.difficulty);
     console.log("Type:", req.query.type);
 
-    const { amount, category, difficulty, type } = req.query;
     const url = `https://opentdb.com/api.php?amount=${amount}&category=${category}&difficulty=${difficulty}&type=${type}`;
 
+    // logging the url that is using
     console.log("Constructed URL:", url);
 
     try {
