@@ -1,40 +1,12 @@
 import express, { json } from 'express';
-import fetch from 'node-fetch';
 import cors from 'cors';
-
+import retry429 from '../common/retry.js';
+import { questions } from '../data/opentdb.js';
 const app = express();
 const port = 5000;
 
 app.use(cors());
 app.use(json());
-
-// keep running into 429 error fetching too many times
-// couple of things to try to do to overcome this:
-// store what's fetched into something so that I pull from there instead of refresh
-// limit the number of times 
-// if i see the 429 error just pull directly from backupQuestions
-async function retry429(url, maxNumberOfRetries = 3, delay = 1000) {
-    let numberOfRetries = 0;
-    while (numberOfRetries < maxNumberOfRetries) {
-        try {
-            const response = await fetch(url);
-            if (response.status === 429) {
-                numberOfRetries++;
-                console.log(`Too Many Requests (Retry ${numberOfRetries}/${maxNumberOfRetries}). Retrying in ${delay / 1000} seconds.`);
-                await new Promise(resolve => setTimeout(resolve, delay));
-                delay *= 2;
-            } else {
-                return response;
-            }
-        } catch (error) {
-            console.error("Fetch error:", error);
-            numberOfRetries++;
-            await new Promise(resolve => setTimeout(resolve, delay));
-            delay *= 2;
-        }
-    }
-    throw new Error("Max retries exceeded.");
-}
 
 app.get('/trivia', async (req, res) => {
     const { amount, category, difficulty, type } = req.query;
@@ -51,7 +23,7 @@ app.get('/trivia', async (req, res) => {
     console.log("Constructed URL:", url);
 
     try {
-        const response = await retry429(url);
+        const response = await retry429(url, questions);
         if (!response.ok) {
             throw new Error(`HTTP error! status: ${response.status}`);
         }

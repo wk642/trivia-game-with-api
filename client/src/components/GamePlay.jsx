@@ -12,30 +12,7 @@ function GamePlay({ settings, onRestart }) {
   const isFetching = useRef(false);
   const [answerFeedback, setAnswerFeedback] = useState(null);
   const [gameOver, setGameOver] = useState(false);
-
-  // hadnling the 429 error 
-  async function retry429(url, maxNumberOfRetries = 3, delay = 1000) {
-    let numberOfRetries = 0;
-    while (numberOfRetries < maxNumberOfRetries) {
-        try {
-            const response = await fetch(url);
-            if (response.status === 429) {
-              numberOfRetries++;
-                console.log(`Too Many Requests (Retry ${numberOfRetries}/${maxNumberOfRetries}). Retrying in ${delay / 1000} seconds.`);
-                await new Promise(resolve => setTimeout(resolve, delay));
-                delay *= 2;
-            } else {
-                return response;
-            }
-        } catch (error) {
-            console.error("Fetch error:", error);
-            numberOfRetries++;
-            await new Promise(resolve => setTimeout(resolve, delay));
-            delay *= 2;
-        }
-    }
-    throw new Error("Max retries exceeded.");
-  }
+  
   useEffect(() => {
     const fetchQuestions = async () => {
       //maybe this is what's triggering the 429 too many attempts even when the user's setup input is not selected properly. 
@@ -50,8 +27,8 @@ function GamePlay({ settings, onRestart }) {
           // checking the url used
           console.log("Fetching URL:", url);
 
-          // 429 error handling 
-          const response = await retry429(url);
+          // 429 error handling -  don't need to do this, because server already handle it.
+          const response = await fetch(url);
           console.log("response", response);
           
           const responseData = await response.json();
