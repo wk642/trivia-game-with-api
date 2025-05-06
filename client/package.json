@@ -14,6 +14,7 @@
     "@tailwindcss/vite": "^4.0.12",
     "cors": "^2.8.5",
     "dotenv": "^16.4.7",
+    "jest-dom": "^4.0.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "tailwindcss": "^4.0.12"
